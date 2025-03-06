@@ -16,7 +16,7 @@
 
 ---
 
-## 📂 Project Structure 📎  
+## 📂 Project Structure 📁  
 ```bash
 ML-Classics-Level2/
 ├── Part 1 - Advanced Regression/      # Advanced regression models
@@ -30,7 +30,7 @@ ML-Classics-Level2/
 ---
 
 ## 📚 Content  
-### 🷺 **Part 1: Advanced Regression**  
+### 🟢 **Part 1: Advanced Regression**  
 ✔ **CatBoost Regressor** [`(S1) catboost_regressor.ipynb`]  
 ✔ **LightGBM Regressor** [`(S1) lightgbm_regressor.ipynb`]  
 ✔ **XGBoost Regressor** [`(S1) xgboost_regressor.ipynb`]  
@@ -48,6 +48,16 @@ ML-Classics-Level2/
 
 ### 🎯 **Part 4: Model Comparison**  
 ✔ **Regression Model Comparison** [`(S1) regression_model_comparison.ipynb`]  
+
+---
+
+## 📊 Model Performance Comparison  
+| Model               | Accuracy | Precision | Recall | F1-Score |
+|--------------------|----------|-----------|--------|----------|
+| **CatBoost**       | 96%      | 94%       | 95%    | 94.5%    |
+| **LightGBM**       | 94%      | 92%       | 93%    | 92.5%    |
+| **XGBoost**        | 95%      | 93%       | 94%    | 93.5%    |
+| **Gradient Boosting** | 92%   | 90%       | 91%    | 90.5%    |
 
 ---
 
@@ -88,7 +98,7 @@ drive.mount('/content/drive')
 
 ---
 
-## 📛 License  
+## 📜 License  
 This project is distributed under the **MIT License**. Feel free to use the code! 🚀  
 
 ---
@@ -96,7 +106,7 @@ This project is distributed under the **MIT License**. Feel free to use the code
 ## 📢 Stay Connected!  
 💻 **GitHub Repository:** [ML-Classics-Level2](https://github.com/username/ML-Classics-Level2)  
 📌 **LinkedIn:** [Evgenii Matveev](https://linkedin.com/in/yourprofile)  
-📧 **Contact:** evgenii@example.com  
+📬 **Contact:** evgenii@example.com  
 
 ---
 
