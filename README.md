@@ -1,4 +1,4 @@
-# 🚀🔥 ML Classics in Python - Level 2 (Google Colab) 🔥🚀  
+# 🚀🔥 ML Classics in Python - Level 2 (Google Colab) 🔥 
 **Advanced Machine Learning models implemented in Python using Google Colab**  
 
 ![ML](https://img.shields.io/badge/Machine_Learning-Python-blue) ![Boosting](https://img.shields.io/badge/Boosting-XGBoost%20%7C%20LightGBM%20%7C%20CatBoost-orange) ![Status](https://img.shields.io/badge/Status-Active-green) ![License](https://img.shields.io/badge/License-MIT-lightgrey)  
