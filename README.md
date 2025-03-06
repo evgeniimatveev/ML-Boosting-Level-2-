@@ -39,6 +39,7 @@ ML-Classics-Level2/
 ✔ **CatBoost Classifier** [`(S1) catboost_classifier.ipynb`]  
 ✔ **LightGBM Classifier** [`(S1) lightgbm_classifier.ipynb`]  
 ✔ **XGBoost Classifier** [`(S1) xgboost_classifier.ipynb`]  
+✔ **Voting Classifier** [`(S1) voting_classifier.ipynb`]  
 
 ### 🔥 **Part 3: Boosting Models**  
 ✔ **Gradient Boosting (GBM)**  
@@ -48,16 +49,26 @@ ML-Classics-Level2/
 
 ### 🎯 **Part 4: Model Comparison**  
 ✔ **Regression Model Comparison** [`(S1) regression_model_comparison.ipynb`]  
+✔ **Classification Model Comparison** [`(S1) classification_model_comparison.ipynb`]  
 
 ---
 
-## 📊 Model Performance Comparison  
-| Model               | Accuracy | Precision | Recall | F1-Score |
-|--------------------|----------|-----------|--------|----------|
-| **CatBoost**       | 96%      | 94%       | 95%    | 94.5%    |
-| **LightGBM**       | 94%      | 92%       | 93%    | 92.5%    |
-| **XGBoost**        | 95%      | 93%       | 94%    | 93.5%    |
-| **Gradient Boosting** | 92%   | 90%       | 91%    | 90.5%    |
+## 📊 Regression Model Performance  
+| Model               | MAE    | MSE        | RMSE    | R² Score | Training Time |
+|--------------------|--------|------------|--------|----------|--------------|
+| **CatBoost**       | 2494.64 | 1.858e+07  | 4310.46 | 0.8803   | 0.0612       |
+| **XGBoost**        | 2466.08 | 1.813e+07  | 4258.64 | 0.8832   | 0.2022       |
+| **LightGBM**       | 2471.82 | 1.834e+07  | 4283.38 | 0.8818   | 0.1180       |
+
+---
+
+## 📊 Classification Model Performance  
+| Model               | Accuracy | Precision | Recall | F1 Score | ROC AUC | Training Time |
+|--------------------|----------|-----------|--------|----------|--------|--------------|
+| **Voting Classifier** | 0.8705  | 0.8033    | 0.4816 | 0.6022   | 0.7257 | N/A          |
+| **CatBoost**       | 0.8700  | 0.7905    | 0.4914 | 0.6061   | 0.7291 | 8.0106       |
+| **LightGBM**       | 0.8685  | 0.7812    | 0.4914 | 0.6033   | 0.7281 | 0.3591       |
+| **XGBoost**        | 0.8530  | 0.6969    | 0.4914 | 0.5764   | 0.7184 | 5.1836       |
 
 ---
 
@@ -71,8 +82,8 @@ Ensure you have the required libraries installed before running the scripts:
 ### ▶ Running the Scripts  
 1️⃣ **Clone the repository**:  
 ```bash
-git clone https://github.com/username/ML-Classics-Level2.git
-cd ML-Classics-Level2
+git clone https://github.com/evgeniimatveev/Ml-Classics-Level2-Boosting.git
+cd Ml-Classics-Level2-Boosting
 ```
 
 2️⃣ **Run the scripts in Google Colab**:  
@@ -104,8 +115,9 @@ This project is distributed under the **MIT License**. Feel free to use the code
 ---
 
 ## 📢 Stay Connected!  
-💻 **GitHub Repository:** [ML-Classics-Level2](https://github.com/username/ML-Classics-Level2)  
-📌 **LinkedIn:** [Evgenii Matveev](https://linkedin.com/in/yourprofile)  
+💻 **GitHub Repository:** [ML-Classics-Level2-Boosting](https://github.com/evgeniimatveev/Ml-Classics-Level2-Boosting)  
+🌐 **Portfolio:** [Data Science Portfolio](https://www.datascienceportfol.io/evgeniimatveevusa)  
+📌 **LinkedIn:** [Evgenii Matveev](https://www.linkedin.com/in/evgenii-matveev-510926276/)  
 📬 **Contact:** evgenii@example.com  
 
 ---
