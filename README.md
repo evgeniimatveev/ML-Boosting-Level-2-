@@ -1,4 +1,4 @@
-# 🚀🔥 ML Classics in Python - Level 2 (Google Colab) 🔥🚀  
+# 🚀🔥 ML Classics in Python - Level 2 (Google Colab) 🔥  
 **Advanced Machine Learning models implemented in Python using Google Colab**  
 
 ![ML](https://img.shields.io/badge/Machine_Learning-Python-blue) ![Boosting](https://img.shields.io/badge/Boosting-XGBoost%20%7C%20LightGBM%20%7C%20CatBoost-orange) ![Status](https://img.shields.io/badge/Status-Active-green) ![License](https://img.shields.io/badge/License-MIT-lightgrey)  
@@ -34,12 +34,13 @@ ML-Classics-Level2/
 ✔ **CatBoost Regressor** [`(S1) catboost_regressor.ipynb`]  
 ✔ **LightGBM Regressor** [`(S1) lightgbm_regressor.ipynb`]  
 ✔ **XGBoost Regressor** [`(S1) xgboost_regressor.ipynb`]  
+✔ **regression_model_comparison** [`(S1) regression_model_comparison.ipynb`]  
 
 ### 🔵 **Part 2: Advanced Classification**  
 ✔ **CatBoost Classifier** [`(S1) catboost_classifier.ipynb`]  
 ✔ **LightGBM Classifier** [`(S1) lightgbm_classifier.ipynb`]  
 ✔ **XGBoost Classifier** [`(S1) xgboost_classifier.ipynb`]  
-✔ **Voting Classifier** [`(S1) voting_classifier.ipynb`]  
+
 
 ### 🔥 **Part 3: Boosting Models**  
 ✔ **Gradient Boosting (GBM)**  
