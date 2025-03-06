@@ -1,121 +1,103 @@
-🚀 ML Level 2 - Advanced Models (XGBoost, LightGBM, CatBoost)
+# 🚀🔥 ML Classics in Python - Level 2 (Google Colab) 🔥🚀  
+**Advanced Machine Learning models implemented in Python using Google Colab**  
 
-A collection of high-performance machine learning models implemented in Python, focusing on gradient boosting techniques.
+![ML](https://img.shields.io/badge/Machine_Learning-Python-blue) ![Boosting](https://img.shields.io/badge/Boosting-XGBoost%20%7C%20LightGBM%20%7C%20CatBoost-orange) ![Status](https://img.shields.io/badge/Status-Active-green) ![License](https://img.shields.io/badge/License-MIT-lightgrey)  
 
+---
 
+## 📌 Description  
+🚀 This repository provides implementations of **advanced machine learning models** in **Python**, structured into key parts. It is designed for those who want to **deepen their ML knowledge** beyond basic models. Here, you will explore **regression, classification, boosting algorithms, and model comparison**.
 
+### 🏆 Why this project?  
+✅ **Hands-on Learning** – Practical implementation of advanced ML models  
+✅ **Structured Approach** – Organized into key ML categories for easy navigation  
+✅ **Boosting & Model Comparisons** – Learn powerful ML techniques  
+✅ **Educational Purpose** – Inspired by the SuperDataScience ML A-Z course  
 
+---
 
+## 📂 Project Structure 📎  
+```bash
+ML-Classics-Level2/
+├── Part 1 - Advanced Regression/      # Advanced regression models
+├── Part 2 - Advanced Classification/  # Advanced classification models
+├── Part 3 - Boosting Models/          # Boosting algorithms
+├── Part 4 - Model Comparison/         # Comparing ML models
+├── data/                              # Datasets
+├── README.md                          # Documentation
+```
 
-📌 Overview
+---
 
-This repository explores advanced machine learning models, focusing on gradient boosting techniques to solve classification and regression problems. Each model is implemented in Python and run in Google Colab.
+## 📚 Content  
+### 🷺 **Part 1: Advanced Regression**  
+✔ **CatBoost Regressor** [`(S1) catboost_regressor.ipynb`]  
+✔ **LightGBM Regressor** [`(S1) lightgbm_regressor.ipynb`]  
+✔ **XGBoost Regressor** [`(S1) xgboost_regressor.ipynb`]  
 
-📂 Project Structure
+### 🔵 **Part 2: Advanced Classification**  
+✔ **CatBoost Classifier** [`(S1) catboost_classifier.ipynb`]  
+✔ **LightGBM Classifier** [`(S1) lightgbm_classifier.ipynb`]  
+✔ **XGBoost Classifier** [`(S1) xgboost_classifier.ipynb`]  
 
-ML-Level-2/
-├── classification/
-│   ├── xgboost_classifier.ipynb
-│   ├── lightgbm_classifier.ipynb
-│   ├── catboost_classifier.ipynb
-│   ├── data/
-│   │   ├── churn_modelling.csv
-├── regression/
-│   ├── xgboost_regressor.ipynb
-│   ├── lightgbm_regressor.ipynb
-│   ├── catboost_regressor.ipynb
-│   ├── regression_model_comparison.ipynb
-│   ├── data/
-│   │   ├── insurance.csv
-├── README.md
+### 🔥 **Part 3: Boosting Models**  
+✔ **Gradient Boosting (GBM)**  
+✔ **LightGBM**  
+✔ **XGBoost**  
+✔ **CatBoost**  
 
-📚 Models & Features
+### 🎯 **Part 4: Model Comparison**  
+✔ **Regression Model Comparison** [`(S1) regression_model_comparison.ipynb`]  
 
-🔹 Classification Models
+---
 
-✔ XGBoost Classifier
-
-✔ LightGBM Classifier
-
-✔ CatBoost Classifier
-
-🔹 Regression Models
-
-✔ XGBoost Regressor
-
-✔ LightGBM Regressor
-
-✔ CatBoost Regressor
-
-🔹 Model Comparison
-
-📊 Side-by-side performance comparison
-
-📌 Hyperparameter tuning insights
-
-📈 Visualization of model evaluation metrics
-
-🚀 Running the Models
-
-1️⃣ Setup Environment
-
-Make sure you have the necessary libraries installed:
-
+## 🚀 How to Use?  
+### 🔧 Installation  
+Ensure you have the required libraries installed before running the scripts:  
+```python
 !pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm catboost
+```
 
-2️⃣ Run Classification Models
+### ▶ Running the Scripts  
+1️⃣ **Clone the repository**:  
+```bash
+git clone https://github.com/username/ML-Classics-Level2.git
+cd ML-Classics-Level2
+```
 
-# Example: Running XGBoost Classifier
-from xgboost import XGBClassifier
+2️⃣ **Run the scripts in Google Colab**:  
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
 
-model = XGBClassifier()
-model.fit(X_train, y_train)
-y_pred = model.predict(X_test)
+3️⃣ **Open the required notebook**:  
+```python
+%cd '/content/drive/My Drive/Colab Notebooks/Part 1 - Advanced Regression'
+!jupyter notebook (S1) catboost_regressor.ipynb
+```
 
-3️⃣ Run Regression Models
+---
 
-# Example: Running LightGBM Regressor
-from lightgbm import LGBMRegressor
+## 📌 Authors & Acknowledgments  
+🔹 **Developed by:** **Evgenii Matveev**  
+🔹 **Source:** **SuperDataScience Machine Learning A-Z (Python)**  
+🔹 **For educational purposes only**  
 
-model = LGBMRegressor()
-model.fit(X_train, y_train)
-y_pred = model.predict(X_test)
+🔥 **Special thanks** to the original authors of the SuperDataScience course – **Hadelin de Ponteves** and **Kirill Eremenko** for their contributions to ML education! 🚀🙌  
 
-📊 Results & Insights
+---
 
-Model
+## 📛 License  
+This project is distributed under the **MIT License**. Feel free to use the code! 🚀  
 
-Accuracy (Classification)
+---
 
-RMSE (Regression)
+## 📢 Stay Connected!  
+💻 **GitHub Repository:** [ML-Classics-Level2](https://github.com/username/ML-Classics-Level2)  
+📌 **LinkedIn:** [Evgenii Matveev](https://linkedin.com/in/yourprofile)  
+📧 **Contact:** evgenii@example.com  
 
-XGBoost
+---
 
-95.2%
-
-4.57
-
-LightGBM
-
-94.8%
-
-4.72
-
-CatBoost
-
-96.1%
-
-4.49
-
-🚀 CatBoost showed the highest classification accuracy!📉 XGBoost performed best in regression!
-
-📜 License
-
-This project is released under the MIT License. Feel free to use and modify the code.
-
-🙌 Acknowledgments
-
-A huge thanks to Hadelin de Ponteves and Kirill Eremenko for their outstanding contributions to machine learning education! Their work in the SuperDataScience Machine Learning A-Z course has been invaluable in shaping this project. 🎉
-
-🔥 Let's build powerful ML models together! If you find this repository useful, give it a ⭐ and fork it!
-
+🔥 **If you like this project, don't forget to star ⭐ the repository!** 🔥
