@@ -21,8 +21,7 @@
 ML-Classics-Level2/
 ├── Part 1 - Advanced Regression/      # Advanced regression models
 ├── Part 2 - Advanced Classification/  # Advanced classification models
-├── Part 3 - Boosting Models/          # Boosting algorithms
-├── Part 4 - Model Comparison/         # Comparing ML models
+├── Part 3 - Model Comparison/         # Comparing ML models
 ├── data/                              # Datasets
 ├── README.md                          # Documentation
 ```
@@ -39,17 +38,11 @@ ML-Classics-Level2/
 ✔ **CatBoost Classifier** [`(S1) catboost_classifier.ipynb`]  
 ✔ **LightGBM Classifier** [`(S1) lightgbm_classifier.ipynb`]  
 ✔ **XGBoost Classifier** [`(S1) xgboost_classifier.ipynb`]  
-✔ **Voting Classifier** [`(S1) voting_classifier.ipynb`]  
 
-### 🔥 **Part 3: Boosting Models**  
-✔ **Gradient Boosting (GBM)**  
-✔ **LightGBM**  
-✔ **XGBoost**  
-✔ **CatBoost**  
 
-### 🎯 **Part 4: Model Comparison**  
+
+### 🎯 **Part 3: Model Comparison**  
 ✔ **Regression Model Comparison** [`(S1) regression_model_comparison.ipynb`]  
-✔ **Classification Model Comparison** [`(S1) classification_model_comparison.ipynb`]  
 
 ---
 
