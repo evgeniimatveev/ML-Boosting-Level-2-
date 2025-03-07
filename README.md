@@ -95,7 +95,8 @@ drive.mount('/content/drive')
 
 ## 📌 Authors & Acknowledgments  
 🔹 **Developed by:** **Evgenii Matveev**  
-🔹 **Source:** **SuperDataScience Machine Learning A-Z (Python)**  
+🔹 **Source:** **SuperDataScience 💻
+Machine Learning Level 2 (in Python))**  
 🔹 **For educational purposes only**  
 
 🔥 **Special thanks** to the original authors of the SuperDataScience course – **Hadelin de Ponteves** and **Kirill Eremenko** for their contributions to ML education! 🚀🙌  
